@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Ryuguard's Christmas Special</title>
+    <link href='https://fonts.googleapis.com/css?family=Mountains of Christmas' rel='stylesheet'>
+    <link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <div id="banner">
+        <img class="banner" src="gifs\websitebanner.gif" alt="COCAIN">
+        <div class="BannerFont">Ryuguard's Christmas Story</div>
+    </div>
+    <div id="nav">
+        <ul>
+            <li><a class="active" href="home.html">Home</a></li>
+            <li><a href="calendar.html">Calendar</a></li>
+            <li><a href="account.html">Account</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="about.html">About</a></li>
+        </ul>
+    </div>
+    <form action="dbh.php" style="border: 1px solid #430203" method="POST">
+        <div class="formsContainer">
+            <h1>
+                Sign Up
+            </h1>
+            <p>Please fill in this form to create an account.</p>
+            <hr>
+
+            <label for="user"><b>Username</b></label>
+            <input type="text" placeholder="Enter Username" name="user" required>
+
+            <label for="psw"><b>Password</b></label>
+            <input type="password" placeholder="Enter Password" name="psw" required>
+
+            <label for="psw-repeat"><b>Repeat Password</b></label>
+            <input type="password" placeholder="Repeat Password" name="psw-repeat" required>
+
+            <label>
+                <input type="checkbox" checked="checked" name="remember" style="margin-bottom: 15px"> Remember me
+            </label>
+
+            <p>I hope things work</p>
+
+            <div class="clearfix">
+                <button type="button" class="signupbtn" name="submit">Sign Up</button>
+            </div>
+        </div>
+    </form>
+    <script src="index.js"></script>
+</body>
+</html>
