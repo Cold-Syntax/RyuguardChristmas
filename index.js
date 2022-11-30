@@ -38,7 +38,7 @@ let numday = d.getDate();
 
 
 for(let i=0;i<btns.length;i++){
-    if(i + 1 <= numday) {
+    if(i + 1 <= numday && !(numday >= 26 && numday <= 30)) {
         btns[i].onclick = function() {
             modals[i].style.display = "block";
         }
